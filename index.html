@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head >
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width:device-width,initial-scale:1.0,"/>
+    <title >freecodecamp survey form</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body >
+    <h1 id="title">freecodecamp survey form</h1>
+    <p id="description">thank you for taking the time to improve the platform</p>
+    <form id="survey-form">
+      <fieldset class="no1" >
+        <label for="name" id="name-label">Name
+          <input id="name" type="text" required="" placeholder="Enter your name">
+       </label>
+        <label id="email-label"for="email">Email
+         <input id="email" placeholder="Enter your email" required="" type="email">
+        </label>
+        <label id="number-label" for="number">Age
+          <input id="number" placeholder="age" type="number" min="8" max="60">
+        </label>
+        <label for="dropdown">which option best describes your content role?
+          <select id="dropdown">
+           <option value="">select one of the above</option>
+           <option value="1">Employee</option>
+           <option value="2">CEO</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset >
+        <h2 class="radio">would you recommend freecodecamp to a friend </h2>
+  <label for="definitely">
+          <input id="definitely"  name="group"value="definitely"type="radio">Definitely
+        </label>
+  <label for="maybe">
+          <input name="group" id="maybe"  value="maybe" type="radio">Maybe
+        </label>
+  <label for="notsure">
+          <input id="notsure"  name="group" value="notsure" type="radio">Not sure
+        </label>
+          <label for="definitely">
+          <input name="group"id="definitely"  value="NAN"type="radio">none of the above
+        </label>
+ <label for="dropdown2">what is your favorite feature of freecodecamp?
+          <select id="dropdown2">
+           <option value="" >select one of the above </option>
+           <option value="1">TECH</option>
+           <option value="2">JAVASCRIPT</option>
+           <option value="3">WEB DEVELOPMENT</option>
+          </select>
+      </fieldset>
+      <fieldset >
+        <h2 >
+          what would you like to see imoroved ? <span >(check all that apply)</span>
+        </h2>
+  <label for="front">
+          <input id="front"   name="front" value="front"type="checkbox">front-end projects
+        </label>
+  <label for="back">
+          <input id="back"   name="back" value="back"type="checkbox">back-end projects
+        </label>
+  <label for="data">
+          <input id="data"   name="data" value="data"type="checkbox">data visualization
+        </label>
+  <label for="challenges">
+          <input id="challenges"   name="challenges" value="challenges"type="checkbox">challenges
+        </label>
+  <label for="open">
+          <input id="open"   name="open" value="open"type="checkbox">open source community
+        </label>
+  <label for="gitter">
+          <input id="gitter"   name="gitter" value="gitter"type="checkbox">Gitter help room
+        </label>
+  <label for="videos">
+          <input id="videos"   name="videos"value="videos "type="checkbox">videos
+        </label>
+  <label for="city">
+          <input id="city"   name="city" value="city"type="checkbox">city makeups
+        </label>
+  <label for="wiki">
+          <input id="wiki"   name="wiki" value="wiki"type="checkbox">Wiki
+        </label>
+  <label for="forum">
+          <input id="forum"   name="forum" value="forum"type="checkbox">Wiki
+        </label>
+  <label for="additional">
+          <input id="additional"   name="additional" value="additional"type="checkbox">Additional Courses
+        </label>
+      </fieldset>
+      <fieldset >
+        <h3 >Any comments or suggestions?</h3>
+        <label for="comments">
+          
+          <textarea id="comments" name="comments" type="text"></textarea>
+        </label>
+        <label for="submit">
+          <input id="submit" type="submit" value="submit">
+        </label>
+      </fieldset>
+    </form>
+    
+  </body>
+</html>
+
+
